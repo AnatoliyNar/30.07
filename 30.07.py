@@ -19,7 +19,7 @@ def main():
                     new_id = id
                     coast= int(input("Введите цену нового товара "))
                     techs.update({name:[adres,owner,new_id,coast]})
-                    print(1)
+                    print('Что-нибудь сюда написать')
                 elif choose == 2:
                     name = input("Введите название товара ")
                     if name in techs.keys():
