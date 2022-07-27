@@ -58,6 +58,7 @@ def main():
 
                 elif choose == 6:
                     for element in techs:
+                        print('Вся техника:')
                         print(element, techs[element][0],techs[element][1],techs[element][2],techs[element][3])
                 elif choose==7:
                     name = input("Введите офис")
