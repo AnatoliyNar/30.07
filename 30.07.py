@@ -42,7 +42,9 @@ def main():
                         new_adres = input("Введите новый адрес ")
                         new_person = input("Введите нового владельца ")
                         techs[name][0] = new_adres
+                        print ('Новый адрес:,' new_adres)
                         techs[name][1] = new_person
+                        print('Новый владелец:,'new_person)
                     else:
                         print("Нет такого товара")
                 elif choose == 5:
