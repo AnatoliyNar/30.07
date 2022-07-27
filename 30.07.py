@@ -25,6 +25,7 @@ def main():
                     if name in techs.keys():
                         new_coast=int(input("Введите новую цену "))
                         techs[name][3]=new_coast
+                        print('Вот ваша новая цена:', new_coast)
                     else:
                         print("Нет такого товара")
                 elif choose == 3:
