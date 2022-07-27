@@ -65,6 +65,7 @@ def main():
                     if name in offices.keys():
                         for element in techs.keys():
                             if techs[element][1]==name:
+                                print('Ваш офис:')
                                 print(element,techs[element])
                     else:
                         print("Нет такого офиса")
