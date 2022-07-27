@@ -33,6 +33,7 @@ def main():
                     name =input("Введите название товара ")
                     if name in techs.keys():
                         techs.pop(name)
+                        print('Вы удалили:,' name)
                     else:
                         print("Нет такого товара")
                 elif choose == 4:
