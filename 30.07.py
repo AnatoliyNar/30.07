@@ -52,6 +52,7 @@ def main():
                     if name in techs.keys():
                         new_person = input("Введите нового владельца ")
                         techs[name][1] = new_person
+                        print('Новый владелец:,'new_person)
                     else:
                         print("Нет такого товара")
 
