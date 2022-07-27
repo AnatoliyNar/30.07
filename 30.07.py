@@ -71,6 +71,7 @@ def main():
                         print("Нет такого офиса")
                 elif choose == 8:
                     exit = False
+                    print('Завершение работы')
                 else:
                     print("Некорректный ввод, повторите попытку")
             exit = True
