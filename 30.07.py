@@ -28,6 +28,7 @@ def main():
                         print('Вот ваша новая цена:', new_coast)
                     else:
                         print("Нет такого товара")
+                        print('И не будет!')
                 elif choose == 3:
                     name =input("Введите название товара ")
                     if name in techs.keys():
